@@ -10,7 +10,7 @@ module.exports = {
             'ref': 'origin/master',
             'repo': 'git@github.com:AnHeung/node-express-server.git',
             'path': '/home/kuma/workspace/sample',
-            'post-deploy': 'npm install && pm2 start'
+            'post-deploy': 'yarn && pm2 start'
         }
     }
 }
