@@ -16,7 +16,7 @@ module.exports = {
             "ref": "origin/master",
             "repo": "git@github.com:AnHeung/node-express-server.git",
             "path": "/home/kuma/workspace/sample",
-            "post-deploy": "yarn"
+            "post-deploy": "/home/kuma/.nvm/versions/node/v20.10.0/bin/yarn"
         }
     }
 }
