@@ -1,7 +1,7 @@
 module.exports = {
     apps: [{
         name: 'sample',
-        script: 'nodemon --exec babel-node src/index.js',        
+        script: './src/index.js',        
     }],
     deploy: {
         production: {
