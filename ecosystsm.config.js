@@ -15,7 +15,7 @@ module.exports = {
             "host": ["192.168.0.155"],
             "ref": "origin/master",
             "repo": "git@github.com:AnHeung/node-express-server.git",
-            "path": "/home/kuma/workspace/",
+            "path": "/home/kuma/workspace/sample",
             "post-deploy": "yarn"
         }
     }
