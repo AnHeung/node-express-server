@@ -11,6 +11,7 @@ module.exports = {
     }],
     deploy: {
         production: {
+            "key": "/c/Users/Kum/Documents/source/node-express-server/.keys/kumaserver.pub",
             "user": "kuma",
             "host": ["192.168.0.155"],
             "ref": "origin/master",
