@@ -10,7 +10,7 @@ module.exports = {
             "ref": "origin/master",
             "repo": "git@github.com:AnHeung/node-express-server.git",
             "path": "/home/kuma/workspace/sample",
-            "post-deploy": "whoami && pwd && npm install && npm run build && pm2 start"
+            "post-deploy": "bash npm install && bash pm2 start"
         }
     }
 }
