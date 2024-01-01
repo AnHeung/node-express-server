@@ -16,7 +16,7 @@ module.exports = {
             "ref": "origin/master",
             "repo": "git@github.com:AnHeung/node-express-server.git",
             "path": "/home/kuma/workspace/sample",
-            "pre-deploy": "pwd && whoami",
+            "pre-deploy": "echo pwd && echo whoami",
             "post-deploy": "sudo yarn"
         }
     }
