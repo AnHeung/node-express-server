@@ -11,7 +11,7 @@ module.exports = {
     }],
     deploy: {
         production: {
-            "user": "ubuntu",
+            "user": "kuma",
             "host": ["192.168.0.155"],
             "ref": "origin/master",
             "repo": "git@github.com:AnHeung/node-express-server.git",
