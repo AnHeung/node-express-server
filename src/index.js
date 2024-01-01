@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('자 해킹해봐라!');
 });
 
 app.listen(process.env.PORT, () =>
